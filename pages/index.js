@@ -53,7 +53,7 @@ the concerned organization and industry.
             <div className=' text-center shadow-lg p-10 rounded-xl ml-10'>
               <Image src={todo} width={100} height={100}/>
               <h1 className=' py-2 text-lg font-medium pt-8 pb-2' >To-Do</h1>
-              <p className='py-3 '>it's a list of tasks you need to complete or things that you want to do. Most typically, they're organised in order of priority.</p>
+              <p className='py-3 '>it is a list of tasks you need to complete or things that you want to do. Most typically, they are organised in order of priority.</p>
               <h4 className='py-4  text-sky-500'>Tools I use:</h4>
               <p className=' py-1 text-gray-600'>ReactJS</p>
               <p className=' py-1 text-gray-600'>HTML5</p>

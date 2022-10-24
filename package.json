@@ -2,6 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://akashbobydb.github.io/porofolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
