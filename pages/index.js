@@ -69,58 +69,58 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10 dark:text-slate-50">
               <Image src={todo} width={100} height={100} alt="todo" />
-              <h1 className=" py-2 text-lg font-medium pt-8 pb-2">To-Do</h1>
-              <p className="py-3 ">
+              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 text-center">To-Do</h1>
+              <p className="py-3 text-center ">
                 it is a list of tasks you need to complete or things that you
                 want to do. Most typically, they are organised in order of
                 priority.
               </p>
-              <h4 className="py-4  text-sky-500 dark:text-amber-400">
+              <h4 className="py-4  text-sky-500 dark:text-amber-400 text-center">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">HTML5</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">ReactJS</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">HTML5</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10">
               <Image src={net} width={100} height={100} alt="netflix" />
-              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 dark:text-white">
+              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 dark:text-white text-center">
                 Netflix
               </h1>
-              <p className="py-3 dark:text-slate-50">
+              <p className="py-3 dark:text-slate-50 text-center">
                 A huge selection of movies and TV shows old and new, tons of
                 high-quality original programs, and an easy-to-navigate
                 interface.
               </p>
-              <h4 className="py-4  text-sky-500 dark:text-amber-400">
+              <h4 className="py-4  text-sky-500 dark:text-amber-400 text-center">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">HTML5</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">ReactJS</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">HTML5</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10">
               <Image src={nvidia} width={100} height={100} alt="netflix" />
-              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 dark:text-white">
+              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 dark:text-white text-center">
                 Nvidia
               </h1>
-              <p className="py-3 dark:text-slate-50">
+              <p className="py-3 dark:text-slate-50 text-center">
                 Developing integrated circuits, which are used in everything
                 from electronic game consoles to personal computers.
               </p>
-              <h4 className="py-4  text-sky-500 dark:text-amber-400">
+              <h4 className="py-4  text-sky-500 dark:text-amber-400 text-center">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">HTML5</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">ReactJS</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">HTML5</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100">
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Tailwind Css
               </p>
             </div>
