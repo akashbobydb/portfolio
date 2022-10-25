@@ -6,8 +6,10 @@ import abd from "../public/abd2.png";
 import net from "../public/net.png";
 import todo from "../public/todo.png";
 import nvidia from "../public/nvidia.png";
-import foot from '../public/ast.png'
+import foot from "../public/ast.png";
+import Link from "next/link";
 import { useState } from "react";
+
 export default function Home() {
   const [DarkMode, setDarkMode] = useState(true);
   return (
@@ -33,8 +35,8 @@ export default function Home() {
                 />
               </li>
               <li className="   bg-gradient-to-r from-red-800 to-amber-300 py-2 px-4 text-white rounded-md ml-8 max-w-screen-md  mr-5">
-                <a href="" />
-                Resume
+                <Link href=''>Resume</Link>
+              
               </li>
             </ul>
           </nav>
@@ -53,12 +55,13 @@ export default function Home() {
               pinnacle through the concerned organization and industry.
             </p>
           </div>
-          <div className=" text-5xl flex  justify-center gap-10 text-sky-600">
-            <AiFillGithub />
-            <AiFillLinkedin />
+          <div className=" text-5xl flex  justify-center gap-10 text-sky-600 cursor-pointer">
+            <Link href="https://www.linkedin.com/in/akashbobydb"><AiFillLinkedin /></Link>
+            <Link href="https://www.github.com/akashbobydb"><AiFillGithub/></Link>
+            
           </div>
           <div className=" relative mx-auto bg-gradient-to-b from-green-300  to-yellow-400 rounded-full w-80 h-80 mt-20  overflow-hidden">
-            <Image layout="fill" objectFit="cover"   src={abd}  />
+            <Image layout="fill" objectFit="cover" src={abd} />
           </div>
         </section>
         <section>
@@ -70,7 +73,9 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10 dark:text-slate-50">
               <Image src={todo} width={100} height={100} alt="todo" />
-              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 text-center">To-Do</h1>
+              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 text-center">
+                To-Do
+              </h1>
               <p className="py-3 text-center ">
                 it is a list of tasks you need to complete or things that you
                 want to do. Most typically, they are organised in order of
@@ -79,8 +84,12 @@ export default function Home() {
               <h4 className="py-4  text-sky-500 dark:text-amber-400 text-center">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">HTML5</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
+                ReactJS
+              </p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
+                HTML5
+              </p>
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
@@ -98,8 +107,12 @@ export default function Home() {
               <h4 className="py-4  text-sky-500 dark:text-amber-400 text-center">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">HTML5</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
+                ReactJS
+              </p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
+                HTML5
+              </p>
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
@@ -116,8 +129,12 @@ export default function Home() {
               <h4 className="py-4  text-sky-500 dark:text-amber-400 text-center">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">HTML5</p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
+                ReactJS
+              </p>
+              <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
+                HTML5
+              </p>
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
@@ -139,25 +156,18 @@ export default function Home() {
               </h4>
               <p className=" py-1 text-slate-100">ReactJS</p>
               <p className=" py-1 text-slate-100">HTML5</p>
-              <p className=" py-1 text-slate-100">
-                Bootstrap
-              </p>
-              <p className=" py-1 text-slate-100">
-                Tailwind Css
-              </p>
+              <p className=" py-1 text-slate-100">Bootstrap</p>
+              <p className=" py-1 text-slate-100">Tailwind Css</p>
             </div>
           </div>
         </section>
       </main>
       <div class="max-h-15 bg-gradient-to-r from-violet-500 to-fuchsia-500">
         <footer>
-          
-          <h1 className=" py-2 ml-4 ">Email: akashdinakumar@gmail.com</h1>
-          <h3 className=" py-2 ml-4">All Right Reserved.</h3>
-          
+          <h1 className=" py-2 ml-4 pb-2 ">Email: akashdinakumar@gmail.com</h1>
+          <h3 className=" py-0 ml-4">All Right Reserved.</h3>
         </footer>
       </div>
-      
     </div>
   );
 }
