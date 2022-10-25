@@ -6,6 +6,7 @@ import abd from "../public/abd2.png";
 import net from "../public/net.png";
 import todo from "../public/todo.png";
 import nvidia from "../public/nvidia.png";
+import foot from '../public/ast.png'
 import { useState } from "react";
 export default function Home() {
   const [DarkMode, setDarkMode] = useState(true);
@@ -147,19 +148,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <br />
-        <div className=" max-w-full bg-slate-500 ">
-          <div className=" ml-9">
-            <footer>
-              <h1 className=" text-lime-50">
-                {" "}
-                Mail Adress:akashdinakumar@gmail.com
-              </h1>
-              <h3>All Right Reserved</h3>
-            </footer>
-          </div>
-        </div>
       </main>
+      <div class="max-h-15 bg-gradient-to-r from-violet-500 to-fuchsia-500">
+        <footer>
+          
+          <h1 className=" py-2 ml-4 ">Email: akashdinakumar@gmail.com</h1>
+          <h3 className=" py-2 ml-4">All Right Reserved.</h3>
+          
+        </footer>
+      </div>
+      
     </div>
   );
 }
