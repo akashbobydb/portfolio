@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className=" bg-white  dark:bg-gray-900 ">
-        <section className=" min-h-screen">
+        <section className=" min-h-min">
           <nav className=" py-10 mb-12 flex justify-between">
             <h1 className=" text-xl font-burtons m-10 mt-8 dark:text-lime-500">
               Akash Boby dB
@@ -31,7 +31,7 @@ export default function Home() {
                   }}
                 />
               </li>
-              <li className="  bg bg-gradient-to-r from-red-800 to-amber-300 py-2 px-4 text-white rounded-md ml-8 mr">
+              <li className="   bg-gradient-to-r from-red-800 to-amber-300 py-2 px-4 text-white rounded-md ml-8 max-w-screen-md  mr-5">
                 <a href="" />
                 Resume
               </li>
@@ -56,13 +56,13 @@ export default function Home() {
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="relative mx-auto mt-20  object-center   bg bg-gradient-to-b from-green-400  to-green-100 rounded-full  h-80  overflow-hidden md:h-96 w-96 py-2 ">
-            <Image layout="fill" objectFit="cover" src={abd} />
+          <div className=" relative mx-auto bg-gradient-to-b from-green-300  to-yellow-400 rounded-full w-80 h-80 mt-20  overflow-hidden">
+            <Image layout="fill" objectFit="cover"   src={abd}  />
           </div>
         </section>
         <section>
           <div>
-            <h1 className=" text-3xl py-1 ml-9 dark:text-white">
+            <h1 className=" text-3xl py-1 ml-20 dark:text-white">
               My Projects:
             </h1>
           </div>
@@ -136,12 +136,12 @@ export default function Home() {
               <h4 className="py-4  text-sky-500 dark:text-amber-400">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-gray-600 dark:text-amber-400">ReactJS</p>
-              <p className=" py-1 text-gray-600 dark:text-amber-400">HTML5</p>
-              <p className=" py-1 text-gray-600 dark:text-amber-400">
+              <p className=" py-1 text-slate-100">ReactJS</p>
+              <p className=" py-1 text-slate-100">HTML5</p>
+              <p className=" py-1 text-slate-100">
                 Bootstrap
               </p>
-              <p className=" py-1 text-gray-600 dark:text-amber-400">
+              <p className=" py-1 text-slate-100">
                 Tailwind Css
               </p>
             </div>
