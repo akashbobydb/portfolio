@@ -65,8 +65,23 @@ export default function Home() {
           </div>
         </section>
         <section>
+          
+            <div className=" mx-auto mt-20  bg-gradient-to-b from-slate-50 to-amber-400 rounded-lg max-w-md box-border shadow-lg ">
+              <h1 className=" text-center  text-zinc-900 text-lg font-bold  font-sans ">SKILLS</h1>
+              <p className=" text-center text-gray-600 dark:text-gray-900">ReactJs</p>
+              <p className=" text-center text-gray-600 dark:text-gray-900">Tailwind Css</p>
+              <p className=" text-center text-gray-600 dark:text-gray-900">Javascript</p>
+              <p className=" text-center text-gray-600 dark:text-gray-900">NextJs</p>
+              <p className=" text-center text-gray-600 dark:text-gray-900">HTML5</p>
+              <p className=" text-center text-gray-600 dark:text-gray-900">CSS</p>
+              <p className=" text-center text-gray-600 dark:text-gray-900">Bootstrap</p>
+             
+              
+            </div>
+        </section>
+        <section className=" my-10">
           <div>
-            <h1 className=" text-3xl py-1 ml-20 dark:text-white">
+            <h1 className=" text-3xl py-2 ml-20 dark:text-white">
               My Projects:
             </h1>
           </div>
@@ -154,15 +169,15 @@ export default function Home() {
               <h4 className="py-4  text-sky-500 dark:text-amber-400">
                 Tools I use:
               </h4>
-              <p className=" py-1 text-slate-100">ReactJS</p>
-              <p className=" py-1 text-slate-100">HTML5</p>
-              <p className=" py-1 text-slate-100">Bootstrap</p>
-              <p className=" py-1 text-slate-100">Tailwind Css</p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">ReactJS</p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">HTML5</p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">Bootstrap</p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">Tailwind Css</p>
             </div>
           </div>
         </section>
       </main>
-      <div class="max-h-15 bg-gradient-to-r from-violet-500 to-fuchsia-500">
+      <div class="max-h-15 -mt-10 bg-gradient-to-r from-violet-500 to-fuchsia-500">
         <footer>
           <h1 className=" py-2 ml-4 pb-2 ">Email: akashdinakumar@gmail.com</h1>
           <h3 className=" py-0 ml-4">All Right Reserved.</h3>
