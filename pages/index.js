@@ -64,7 +64,7 @@ export default function Home() {
             </Link>
           </div>
           <div className=" relative mx-auto bg-gradient-to-b from-green-300  to-yellow-400 rounded-full w-80 h-80 mt-20  overflow-hidden">
-            <Image layout="fill" objectFit="cover" src={abd} />
+            <Image layout="fill" objectFit="cover" src={abd} alt="poster" />
           </div>
         </section>
         <section>
@@ -147,7 +147,7 @@ export default function Home() {
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
-              <Link href="https://todo-using-react.vercel.app/">
+              <Link href="">
                 <h1 className=" cursor-pointer font-serif font-semibold text-black dark:text-slate-100">
                   Click Here To Visit
                 </h1>
