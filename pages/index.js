@@ -106,7 +106,7 @@ export default function Home() {
                 Amazon
               </h1>
               <p className="py-3 dark:text-slate-50">
-              Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazon.com's millions of customers.
+              Amazonis a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazoncom millions of customers.
               </p>
               <h4 className="py-4  text-sky-500 dark:text-amber-400">
                 Tools I use:
@@ -147,7 +147,7 @@ export default function Home() {
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
-              <Link href="">
+              <Link href="https://vercel.com/akashbobydb/todo-using-react">
                 <h1 className=" cursor-pointer font-serif font-semibold text-black dark:text-slate-100">
                   Click Here To Visit
                 </h1>
