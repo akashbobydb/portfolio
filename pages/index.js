@@ -6,6 +6,7 @@ import abd from "../public/abd2.png";
 import net from "../public/net.png";
 import todo from "../public/todo.png";
 import nvidia from "../public/nvidia.png";
+import amazon from "../public/amazon.png";
 import foot from "../public/ast.png";
 import Link from "next/link";
 import { useState } from "react";
@@ -35,8 +36,7 @@ export default function Home() {
                 />
               </li>
               <li className="   bg-gradient-to-r from-red-800 to-amber-300 py-2 px-4 text-white rounded-md ml-8 max-w-screen-md  mr-5">
-                <Link href=''>Resume</Link>
-              
+                <Link href="">Resume</Link>
               </li>
             </ul>
           </nav>
@@ -56,28 +56,42 @@ export default function Home() {
             </p>
           </div>
           <div className=" text-5xl flex  justify-center gap-10 text-sky-600 cursor-pointer">
-            <Link href="https://www.linkedin.com/in/akashbobydb"><AiFillLinkedin /></Link>
-            <Link href="https://www.github.com/akashbobydb"><AiFillGithub/></Link>
-            
+            <Link href="https://www.linkedin.com/in/akashbobydb">
+              <AiFillLinkedin />
+            </Link>
+            <Link href="https://www.github.com/akashbobydb">
+              <AiFillGithub />
+            </Link>
           </div>
           <div className=" relative mx-auto bg-gradient-to-b from-green-300  to-yellow-400 rounded-full w-80 h-80 mt-20  overflow-hidden">
             <Image layout="fill" objectFit="cover" src={abd} />
           </div>
         </section>
         <section>
-          
-            <div className=" mx-auto mt-20  bg-gradient-to-b from-slate-50 to-amber-400 rounded-lg max-w-md box-border shadow-lg ">
-              <h1 className=" text-center  text-zinc-900 text-lg font-bold  font-sans ">SKILLS</h1>
-              <p className=" text-center text-gray-600 dark:text-gray-900">ReactJs</p>
-              <p className=" text-center text-gray-600 dark:text-gray-900">Tailwind Css</p>
-              <p className=" text-center text-gray-600 dark:text-gray-900">Javascript</p>
-              <p className=" text-center text-gray-600 dark:text-gray-900">NextJs</p>
-              <p className=" text-center text-gray-600 dark:text-gray-900">HTML5</p>
-              <p className=" text-center text-gray-600 dark:text-gray-900">CSS</p>
-              <p className=" text-center text-gray-600 dark:text-gray-900">Bootstrap</p>
-             
-              
-            </div>
+          <div className=" mx-auto mt-20  bg-gradient-to-b from-slate-50 to-amber-400 rounded-lg max-w-md box-border shadow-lg ">
+            <h1 className=" text-center  text-zinc-900 text-lg font-bold  font-sans ">
+              SKILLS
+            </h1>
+            <p className=" text-center text-gray-600 dark:text-gray-900">
+              ReactJs
+            </p>
+            <p className=" text-center text-gray-600 dark:text-gray-900">
+              Tailwind Css
+            </p>
+            <p className=" text-center text-gray-600 dark:text-gray-900">
+              Javascript
+            </p>
+            <p className=" text-center text-gray-600 dark:text-gray-900">
+              NextJs
+            </p>
+            <p className=" text-center text-gray-600 dark:text-gray-900">
+              HTML5
+            </p>
+            <p className=" text-center text-gray-600 dark:text-gray-900">CSS</p>
+            <p className=" text-center text-gray-600 dark:text-gray-900">
+              Bootstrap
+            </p>
+          </div>
         </section>
         <section className=" my-10">
           <div>
@@ -86,6 +100,31 @@ export default function Home() {
             </h1>
           </div>
           <div className="lg:flex gap-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl ml-10">
+              <Image src={amazon} width={100} height={100} alt="nvidia" />
+              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 dark:text-white">
+                Amazon
+              </h1>
+              <p className="py-3 dark:text-slate-50">
+              Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazon.com's millions of customers.
+              </p>
+              <h4 className="py-4  text-sky-500 dark:text-amber-400">
+                Tools I use:
+              </h4>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">ReactJS</p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">HTML5</p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">
+                Bootstrap
+              </p>
+              <p className=" text-gray-600 py-1 dark:text-slate-100">
+                Tailwind Css
+              </p>
+              <Link href="https://amazon-using-react.vercel.app/">
+                <h1 className=" cursor-pointer font-serif font-semibold text-black dark:text-slate-100">
+                  Click Here To Visit
+                </h1>
+              </Link>
+            </div>
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10 dark:text-slate-50">
               <Image src={todo} width={100} height={100} alt="todo" />
               <h1 className=" py-2 text-lg font-medium pt-8 pb-2 text-center">
@@ -108,6 +147,11 @@ export default function Home() {
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
+              <Link href="https://todo-using-react.vercel.app/">
+                <h1 className=" cursor-pointer font-serif font-semibold text-black dark:text-slate-100">
+                  Click Here To Visit
+                </h1>
+              </Link>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10">
               <Image src={net} width={100} height={100} alt="netflix" />
@@ -131,6 +175,11 @@ export default function Home() {
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Bootstrap
               </p>
+              <Link href="https://netfliix-using-react.vercel.app/">
+                <h1 className=" cursor-pointer font-serif font-semibold text-black dark:text-slate-100">
+                  Click Here To Visit
+                </h1>
+              </Link>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl ml-10">
               <Image src={nvidia} width={100} height={100} alt="netflix" />
@@ -156,23 +205,11 @@ export default function Home() {
               <p className=" py-1 text-gray-600 dark:text-slate-100 text-center">
                 Tailwind Css
               </p>
-            </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl ml-10">
-              <Image src={nvidia} width={100} height={100} alt="nvidia" />
-              <h1 className=" py-2 text-lg font-medium pt-8 pb-2 dark:text-white">
-                Nvidia
-              </h1>
-              <p className="py-3 dark:text-slate-50">
-                Developing integrated circuits, which are used in everything
-                from electronic game consoles to personal computers.
-              </p>
-              <h4 className="py-4  text-sky-500 dark:text-amber-400">
-                Tools I use:
-              </h4>
-              <p className=" text-gray-600 py-1 dark:text-slate-100">ReactJS</p>
-              <p className=" text-gray-600 py-1 dark:text-slate-100">HTML5</p>
-              <p className=" text-gray-600 py-1 dark:text-slate-100">Bootstrap</p>
-              <p className=" text-gray-600 py-1 dark:text-slate-100">Tailwind Css</p>
+              <Link href="https://amazon-using-react.vercel.app/">
+                <h1 className=" cursor-pointer font-serif font-semibold text-black dark:text-slate-100">
+                  Click Here To Visit
+                </h1>
+              </Link>
             </div>
           </div>
         </section>
