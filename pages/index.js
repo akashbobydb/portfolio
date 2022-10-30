@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import background from '../public/background.jpg'
 import Image from "next/image";
 import abd from "../public/abd2.png";
 import net from "../public/net.png";
@@ -14,6 +15,7 @@ import { useState } from "react";
 export default function Home() {
   const [DarkMode, setDarkMode] = useState(true);
   return (
+    <div className=" ">
     <div className={DarkMode ? "dark" : ""}>
       <Head>
         <title>Akash Boby Portofolio</title>
@@ -67,8 +69,8 @@ export default function Home() {
             <Image layout="fill" objectFit="cover" src={abd} alt="poster" />
           </div>
         </section>
-        <section>
-          <div className=" mx-auto mt-20  bg-gradient-to-b from-slate-50 to-amber-400 rounded-lg max-w-md box-border shadow-lg ">
+        <section >
+          <div className=" mx-auto mt-20  bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600 rounded-lg max-w-md box-border shadow-lg ">
             <h1 className=" text-center  text-zinc-900 text-lg font-bold  font-sans ">
               SKILLS
             </h1>
@@ -219,7 +221,7 @@ export default function Home() {
           <h1 className=" py-2 ml-4 pb-2 ">Email: akashdinakumar@gmail.com</h1>
           <h3 className=" py-0 ml-4">All Right Reserved.</h3>
         </footer>
-      </div>
+      </div></div>
     </div>
   );
 }
